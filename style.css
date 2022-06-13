@@ -1,0 +1,182 @@
+
+.navBar{
+background-color: #F5F0DA;  /*Couleur du fond de la nav*/
+height: 150px;                /*taille du background*/
+box-shadow: 2px 2px 5px;      /*Ombre du background*/
+}       
+.Top {
+margin-left: 100px;           /*Marge a droite pour de caler le logo de lentreprise*/
+}
+img {
+width: 100px;                 /*largeur du logo de lentreprise*/ 
+height: 90px;                 /*Hauteur de l'image de lentreprise*/
+}
+.navBar { 
+display: flex; /**/
+justify-content: space-between;       /*C'est pour eloigner 2 elements au maximum*/
+align-items: center;                  /*définit l'alignement verticale*/
+}
+#searchBar {
+margin-right: 2%;                     /*C'est la marge a droite*/
+position: relative;                   /*L'élément est positionné dans le flux de la navBar puis décalé, par rapport aux valeurs fournies par top, right, bottom et left*/
+width: 20%;                           /*largeur de la barre de recherche*/
+border-radius: 5%;                    /*C'est pour orondir les bords de la barre de recherche*/
+display: flex;/**/
+align-items: center;                  /*définit l'alignement verticale*/
+}
+input[type="search"] {
+background-color: transparent;         /*C'est la couleur du fond*/
+width: 100%;                           /*C'est la largeur*/
+margin: 0;                             /*Marge de 0 */
+padding: 8px;                          /*permet de définir les différents écarts de sur les côtés d'un élément*/
+border-radius: 5px;                    /*C'est pour arondir les bords*/
+}
+button[type="submit"] {
+position: absolute;
+border: 0;
+background-color: transparent;
+color: black;
+right: 0;
+cursor: pointer;
+}
+.nav2 {
+background-color: #F5F0DA;          /*C'est la couleur du fond*/
+margin-top: 50px;                     /*C'est l'espace blanc entre la navBar et la nav2*/
+display: flex;/**/
+flex-direction: row;                  /*C'est pour mettre les éléments en ligne */
+justify-content: space-between;       /*C'est pour tous les espacés*/
+box-shadow: 2px 5px 10px 2px;         /*C'est l'ombre de la nav2*/
+}
+.ListeMenu a {
+text-decoration: none;
+color: black;
+}
+.ListeMenu {
+display: flex;
+justify-content: space-between;
+}
+li {
+display: inline-block;           /*Cest pour aligner les elements sur la meme ligne */
+font-size: 30px;                 /*Cest la taille de lecriture*/
+margin-left: 50px;               /*c'est la marge de gauche*/
+margin-right: 50px;              /*C'est la marge de droite*/
+}
+.moustache {
+width: 70px;                      /*C'est la largeur du logo*/
+height: 20px;                     /*C'est la hauteur du logo*/
+align-items: center;              /*définit l'alignement verticale*/
+margin-top: 25px;                 /*La marge du haut pour centrer la moustache*/
+margin-right: 120px;              /*La marge de droite pour decaler la moustache*/
+}
+.photoEtBouton {
+background: url("../bandeau.jpg.jpg") no-repeat center/100%; height: 500px; /*on met limage en fond qui se repet pas , qui prend 100% et a une hauteur de 500px*/
+}
+button {
+background-color: #2C6071;                    /*C'est la couleur du fond du bouton*/
+color: white;                                 /*cest la couleur de l'ecriture*/
+height: 40px;                                   /*La hauteur du bouton*/
+width: 20%;                                     /*La largeur du bouton*/
+border: none;                                   /*Pour que le button nest pas de bordure*/
+font-family: 'Times New Roman', Times, serif;  /*La police du texte dans le bouton*/                            
+}
+.prendreRdv {
+margin-top: 225px;                              /*Le margin en haut du bouton prendre rdv*/
+margin-left: 600px;                             /*La marge de droite*/
+width: 300px;                                   /*la Largeur du bouton*/
+height: 60px;                                   /*La hauteur du bouton*/
+font-size: 28px;                                /*La taille de police du bouton*/
+box-shadow: 10px 10px 5px black;              /*C'est l'ombre du bouton*/
+}
+.text1 {
+font-size: x-large;                            /*Taille du texte*/
+margin-left: 90px;                             /*Marge a gauche*/
+margin-right: 90px;                            /*Marche a droite*/
+}
+.text2 {
+font-size: x-large;                           /*Taille du texte*/ 
+margin-left: 90px;                            /*Marge a gauche*/
+margin-right: 90px;                           /*Marche a droite*/
+}
+.row {
+display: flex;
+justify-content: space-between;              /*pour espacer les 2 elements*/
+width: 90%;                                  /*La largeur*/
+margin: auto;                                /*Marge auto*/
+text-align: center;                          /*Pour aligner horizontlement */
+}
+.order-1 {
+    order: 2;                                 /*Mettre l'élément 1 et 2*/
+}
+.order-2 {
+    order: 3;                                 /*Mettre l'élément 2 et 3*/
+}
+.order-3 {
+    order: 1;                                 /*Mettre l'élément 3 et 1*/
+}
+.col {
+border:solid 4px #B7912C;                   /*La bordur des cartes et la couleur*/
+width: 30%                                    /*Largeur des cartes*/
+}
+.img {
+width: 100%;                                  /*Largeur de limage*/
+height: 270px;                                /*Hauteur de limage*/
+}
+.texteCard {
+font-size: 22px;                              /*Taille de police*/
+text-align: right;                            /*Pour decaler le bouton*/
+margin-right: 10px;                           /*marge a droite pour bien la mettre au bon endroit*/
+margin-bottom: 20px;                          /*marge a droite pour bien la mettre au bon endroit*/
+}
+.cardTexte {
+text-align: center;                           /*Pour centrer le texte horizentalement*/
+align-items: center;                          /*Pour centrer le texte au verticalement*/
+font-size: 22px;                              /*taille de police*/
+}
+.card {
+background-color: #2C6071;                  /*Couleur du bouton*/
+color: white;                               /*Couleur de l'ecriture*/
+border: none;                                 /*Pour que le bouton a pas de bordure*/                                 
+text-align: center;                           /*Pour centrer le texte horizentalement*/
+font-weight: bold;                            /**/
+}
+.card button {
+background-color: #2C6071;                  /*Couleur du fond*/
+color: white;                               /*Couleur du texte*/
+border: none;                                 /*Pas de bordure*/
+text-align: center;                           /*Pour centrer le texte*/
+}
+.dmc {
+display: flex; /**/
+flex-direction: column;                       /*Pour mettre en colone les rgpd*/
+}
+.dmc a {
+text-decoration: none;                        /*Pour enlever le soulignage du texte*/
+color: black;                               /*Couleur du texte*/
+}
+.reseaux {
+text-align: center; /*Pour centrer le texte au dessus des réseaux*/
+}
+.logo {
+margin-right: 50px;                           /*Pour mettre lecart a droite*/
+margin-left: 50px;                            /*Pour mettre lecart a gauche*/
+}
+.LogoReseau img {
+height: 20px;                                /*Modifier la hauteur des logos réseaux*/
+width: 20px;                                 /*Modifier la largeur des logos réseaux*/
+}
+footer {
+background-color: #F5F0DA;                 /*Couleur du fond*/
+display: flex;
+justify-content: space-around;               /*Pour espacer les éléments avec le meme espace entre */
+align-items: center;                         /*Pour centrer le texte verticalement*/
+margin-top: 50px;                            /*pour avoir lespace entre les card et le footer*/
+}
+.copyRight a {
+color: black;                              /*C'est la couleur de la police de copyright*/
+text-decoration: none;                       /*Pour enlever le soulignage du texte*/
+}
+.copyRight { 
+background-color:#2C6071; /*La couleur du fond*/
+display: block; 
+text-align: center; /*Pour centrer le texte horizentalement*/
+}
